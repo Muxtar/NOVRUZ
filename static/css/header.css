@@ -1,0 +1,64 @@
+/** HEADER AND HAMBURGER START -------------------------------------- */
+
+header{
+    width: 100%;
+    gap:20px;
+    padding:1em var(--my-margin-inline);
+}
+
+.hamburger-container{
+    display: none;
+}
+
+/** HEADER AND HAMBURGER END ---------------------------------------- */
+
+
+/** NAV DESIGN/STYLE START ------------------------------------------ */
+
+#main-nav-container{
+    border-radius: var(--my-border-radius);
+    padding:1em;
+    background-color: #181d39;
+    color:#fafafa;
+    font-weight: 300 !important;
+    margin-top: 1.8em;
+}
+
+.main-nav{
+    gap:13px;
+    padding-left:0 !important;
+    margin-bottom:0 !important;
+    flex-wrap: wrap;
+}
+
+.main-nav-item:not(:last-of-type){
+    border-right:1px solid #515365;
+}
+
+.main-nav-item a,
+.main-nav-item svg
+{
+    transition: 500ms;
+    opacity: 0.8;
+}
+
+.main-nav-item a{
+    gap:10px;
+    justify-content: center;
+}
+
+.main-nav-item a:hover,
+.main-nav-item svg:hover
+{
+    opacity: 1;
+}
+
+.main-nav-item span{
+    padding-right:14px;
+}
+
+.main-nav-item svg{
+    stroke-width: 1.3px;
+}
+
+/** NAV DESIGN/STYLE END -------------------------------------------- */

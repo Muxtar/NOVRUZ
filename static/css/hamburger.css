@@ -1,0 +1,90 @@
+#hamburger-modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #2d334b91;
+    /* background-color: rgba(0,0,0,0.4); */
+}
+
+.hamburger{
+    cursor:pointer;
+    font-size:25px;
+    color:hsla(0, 0%, 98%, 0.692);
+}
+
+.modal-header{
+    justify-content: flex-start;
+    gap:10px;
+    position: relative;
+    left:-100%;
+    padding:15px 15px 20px 15px;
+    background-color: #191e3a;
+    transition: 500ms;
+}
+
+.main-link{
+    font-weight: 600;
+    text-decoration: none;
+    font-size:25px;
+    color:#fafafa;
+    line-height: 2.75rem;
+}
+
+.main-link:hover{
+    color:#fafafa
+}
+
+.modal-nav-container{
+    transition: 500ms;
+    position: relative;
+    left:-260px;
+    height:100%;
+    width:260px;
+    background-color: #060818;
+}
+
+.modal-nav{
+    padding-left: 0;
+    margin-inline:20px;
+    padding-top:30px;
+    flex-direction: column;
+    gap:10px;
+}
+
+.modal-nav-item{
+    align-items: center;
+    /* background-color: #506690; */
+    color:#888ea8;
+    transition: opacity 500ms;
+    opacity: 0.85;
+    width:100%;
+    font-size:13px;
+    padding:14px;
+    border-radius: 8px;
+}
+
+.modal-nav-item p{
+    flex-grow: 1;
+    font-weight: 600;
+    margin-left:15px;
+}
+
+.modal-nav-item:link{
+    background-color: none;
+}
+
+.modal-nav-item:hover{
+    color:#888ea8;
+    opacity: 1;
+}
+
+.modal-nav svg,
+.modal-nav li
+{
+    color:#888ea8;
+}

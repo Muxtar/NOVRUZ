@@ -1,0 +1,24 @@
+*{
+    letter-spacing: 1.2px !important;
+}
+
+.main-form{
+    background-color: #0d1625;
+    padding:20px;
+    border-radius: 8px;
+}
+
+.input-container{
+    flex-direction: column;
+    gap:30px;
+}
+
+.form-title{
+    color:#ebedf2;
+    font-size: 18px;
+}
+
+.input-label{
+    color:#acb0c3;
+    font-weight: 300;
+}
